@@ -1,0 +1,24 @@
+====================================
+	     REGISTRO
+====================================
+
+1. URL: http://127.0.0.1:5500/index.html
+2. Protocolo: http
+3. Host: 127.0.0.1
+4. Puerto: 5500
+5. Ruta: /index.html
+6. Método: GET
+7. Codigo de estado: 304 Not Modified
+-----------------------------------------
+. Codigo de estado despues de cambiar la URL: 404 Not Found.
+
+- Este codigo solo aparece cuando no hay un archivo que tenga el nombre que uso en la URL en la carpeta, en este caso "promociones.html"
+------------------------------------------
+Roles que cumpliran HTML, CSS Y JavaScript:
+
+. HTML: Esta se encargara de crear la paginas, es decir es el lenguaje qara para definir el contenido del sitio y su organizacion
+
+. CSS: Este se encargara de darle estilo al sitio, es decir configurar los colores, tamaños, tipos de letras, distribucion de elementos, etc.
+
+.JavaScript: Es el que se encarga del comportamiento de la pagina en la cual reacciona a lo que el usuario esta haciendo y puede aplicar cambias sin tener que recargar la pagina.
+
