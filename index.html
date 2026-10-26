@@ -5,9 +5,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    .logo{
+        width: 500px;
+        height: 300px;
+        display: block;
+        margin: 0 auto;
+    }
+    body{
+        background-color: antiquewhite;
+    }
+    .title{
+        display: flex;
+        align-items: center;
+        gap: 16px;
+    }
+    .title img{
+        width: 60px;
+    }
+    .maps{
+        width: 40px;
+        height: 40x;
+    }
+    .location{
+        display:flex;
+        align-items: center;
+        padding: 0 auto;
+        gap: 10px;
+    }
+    .portada{
+        display: block;
+        max-width: 600px;
+        margin: 0 auto;
+
+    }
+    .bike{
+        display: block;
+        max-width: 500px;
+        height: 250px;
+        margin: 0 auto;
+    }
+    .ruta{
+        display: block;
+        max-width: 500px;
+        height: 250px;
+        margin: 0 auto;
+    }
+</style>
 <body>
+    <img class="logo" src="/img/logo-rueda-libre.png" alt="logo de rueda libre"></img>
+    <div class="title">
     <h1>Rueda Libre | Alquiler de bicicletas en Medellín</h1>
-    <p>Bienvenidos a Rueda Libre, tu solución de alquiler de bicicletas en Medellín.</p>
-    
+    <img src="img/logo-pequeño.png"></img>
+    </div>
+    <p>Bienvenidos a Rueda Libre, tu solución de alquiler de bicicletas en Medellín. <a href="#encuentranos">Visítanos</a></p> 
+    <img class="portada" src="/img/portada.jpeg"></img>   
+    <h2>¿Quienes somos?</h2>
+    <p>Somos un servicio de alquiler de bicicletas en Medellin, pensado para quienes quieren recorrer la ciudad de una forma distinta.</p>
+    <h2>Nuestros servicios</h2>
+    <img class="bike" src="img/bici.jpeg"></img>
+        <h3>Alquier por hora</h3>
+        <p>Ideal para paseos cortos. <strong>Incluye casco y candado</strong></p>
+        <h3>Alquiler por día</h3>
+        <p>Te daremos un bici para ti durante todo el dia. <strong>Incuye casco, candado y un kit de reparacion</strong></p>
+        <h3>Rutas guiadas</h3>
+        <img class="ruta" src="img/ruta.jpeg"></img>
+        <p>Recorridos en el cual te acompaña un guia. <strong>Empezamos a partiar de las 10:00 AM</strong></p>
+        <h2>¿Como alquilar?</h2>
+        <ul>
+            <li>Elige la bicicleta que más te guste</li>
+            <li>Muestra tu documento de identidad</li>
+            <li>Recibe tu casco y tu candado</li>
+            <li>Pedalea y devuélvela a la hora acordad</li>
+        </ul>
+    <div class="location">
+        <h2 id="encuentranos">Encuentranos</h2>
+        <a href="https://www.google.com/maps"><img class="maps" src="/img/googlemaps.png"></img></a>
+    </div>
+    <a href="mailto:ruedalibre65@rulibre.com">Escribenos a nuestro correo</a>
 </body>
 </html>
